@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+header,
+.main,
+footer {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background-color: #528FD5;
+    height: 40px;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #75acec;
+}
+
+.main{
+    display: flex; /* Usar flexbox para alinear artículos y aside */
+    justify-content: space-between;
+}
+
+.main .articles{
+    width: 70%;
+}
+
+.main .articles article{
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 28%;
+    background-color: #ff8000;
+    float:right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px; /* Añadir padding para espaciar contenido */
+    border: 1px solid #ccc; /* Añadir borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    clear: both;
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Añadir margen superior para separación */
+}
